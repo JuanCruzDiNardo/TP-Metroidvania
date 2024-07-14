@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE38649D-C26F-50D7-C694-58B1409192E6}|Assembly-CSharp.csproj|c:\\users\\juan cruz di nardo\\documents\\github\\tp-metroidvania\\assets\\scripts\\animation_sheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE38649D-C26F-50D7-C694-58B1409192E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animation_sheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE38649D-C26F-50D7-C694-58B1409192E6}|Assembly-CSharp.csproj|C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\assets\\scripts\\enemyrange_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE38649D-C26F-50D7-C694-58B1409192E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyrange_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Animation_Sheet.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\Assets\\Scripts\\Animation_Sheet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Animation_Sheet.cs",
+              "ToolTip": "C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\Assets\\Scripts\\Animation_Sheet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Animation_Sheet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T21:33:36.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyRange_Controller.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\Assets\\Scripts\\EnemyRange_Controller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyRange_Controller.cs",
+              "ToolTip": "C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\Assets\\Scripts\\EnemyRange_Controller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyRange_Controller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T19:58:26.275Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
