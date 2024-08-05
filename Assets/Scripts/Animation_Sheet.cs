@@ -12,9 +12,10 @@ public class Animation_Sheet : MonoBehaviour
 
     public int index = 0;
 
-    public float frames;
+    public float frames = 24;
 
     public bool loopended = false;
+    public bool loop = true;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,7 @@ public class Animation_Sheet : MonoBehaviour
     public void AnimationStart()
     {
         loopended = false;
+        index = 0;
         InvokeRepeating("Load_Sprite", 0f, (float)1 / frames);
     }
 
@@ -46,7 +48,11 @@ public class Animation_Sheet : MonoBehaviour
         index++;
         if (index == spriteList.Count)
         {
-            index = 0;
+            if (loop)
+                index = 0;
+            else
+                index--;
+
             loopended = true;
         }
     }

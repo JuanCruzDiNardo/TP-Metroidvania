@@ -64,18 +64,23 @@
     <Compile Include="Assets\Scripts\Projectile_Controller.cs" />
     <Compile Include="Assets\Scripts\Camera_Controller.cs" />
     <Compile Include="Assets\Scripts\HookBuff_Controller.cs" />
+    <Compile Include="Assets\Scripts\Parallax\Parallax.cs" />
     <Compile Include="Assets\Scripts\Portal_Controller.cs" />
     <Compile Include="Assets\Scripts\Animation_Manager.cs" />
+    <Compile Include="Assets\Scripts\Enemy_Animation_Manager.cs" />
     <Compile Include="Assets\Scripts\Player_Controller.cs" />
     <Compile Include="Assets\Scripts\Enemy_Controller.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Door_Controller.cs" />
+    <Compile Include="Assets\Scripts\LifeBar_Controller.cs" />
     <Compile Include="Assets\Scripts\EnemyRange_Controller.cs" />
     <Compile Include="Assets\Scripts\Range_Controller.cs" />
     <Compile Include="Assets\Scripts\LongRangeEnemy_Controller.cs" />
+    <Compile Include="Assets\Scripts\PlayerLifeBar_Controller.cs" />
     <Compile Include="Assets\Scripts\Animation_Sheet.cs" />
     <Compile Include="Assets\Scripts\JumpBuff_Controller.cs" />
     <Compile Include="Assets\Scripts\EnemyRange_Controller1.cs" />
+    <Compile Include="Assets\Scripts\Estados.cs" />
     <Compile Include="Assets\Scripts\DoorTrigger_Controller.cs" />
     <Compile Include="Assets\Scripts\Key_Controller.cs" />
   </ItemGroup>

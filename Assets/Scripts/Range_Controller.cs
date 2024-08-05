@@ -10,7 +10,7 @@ public class Range_Controller : MonoBehaviour
 
     public bool EnemyinRange;
 
-    public GameObject Enemy;
+    public Enemy_Controller Enemy;
 
     private Vector3 offset;
 
@@ -42,7 +42,7 @@ public class Range_Controller : MonoBehaviour
         if (collider.gameObject.CompareTag("Enemy"))
         {
             EnemyinRange = true;
-            Enemy = collider.gameObject;
+            Enemy = collider.gameObject.GetComponent<Enemy_Controller>();
         }
     }
 

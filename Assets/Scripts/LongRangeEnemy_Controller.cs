@@ -15,6 +15,8 @@ public class LongRangeEnemy_Controller : Enemy_Controller
         {
             turnTime -= Time.deltaTime;
 
+            estado = Estados.e_idle;
+
             if (turnTime <= 0)
             {
                 this.transform.Rotate(new Vector3(0, 180, 0));
@@ -28,6 +30,8 @@ public class LongRangeEnemy_Controller : Enemy_Controller
     {
         if (attacking)
         {
+            estado = Estados.e_range_attack;
+
             atkTime -= Time.deltaTime;
 
             if (atkTime <= 0)
@@ -43,7 +47,9 @@ public class LongRangeEnemy_Controller : Enemy_Controller
                 {
                     porjectileObj = Instantiate(projectile, projectileSpawn, Quaternion.identity);
                     porjectileObj.lookingRight = this.lookingRight;
-                    atkTime += 1;
+                    projectile.projectileDMG = damage;
+
+                    atkTime += 1.2f;
                 }
                 else
                 {

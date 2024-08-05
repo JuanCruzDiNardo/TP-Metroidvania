@@ -60,8 +60,17 @@ public class GameManager : MonoBehaviour
                 if(test)
                     render.material = verde;
                 else 
+                    render.material = pared;
+            }
+            foreach (GameObject obj in GameObject.FindGameObjectsWithTag("Floor"))
+            {
+                render = obj.GetComponent<MeshRenderer>();
+
+                if (test)
                     render.material = naranja;
-            }            
+                else
+                    render.material = pared;
+            }
         }
 
     }

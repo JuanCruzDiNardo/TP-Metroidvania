@@ -8,6 +8,8 @@ public class Projectile_Controller : MonoBehaviour
 
     public float projectileSpeed;
 
+    public float projectileDMG;
+
     public bool lookingRight;
 
     public Rigidbody rb;
@@ -51,6 +53,13 @@ public class Projectile_Controller : MonoBehaviour
         if (collision.gameObject.CompareTag("Wall") || collision.gameObject.CompareTag("Floor") || collision.gameObject.CompareTag("Player"))
         {
             Destroy(this.gameObject);
+        }
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Destroy(this.gameObject);
+            Player_controller player = collision.gameObject.GetComponent<Player_controller>();
+
+            player.RecibirDanio(projectileDMG);
         }
     }
 

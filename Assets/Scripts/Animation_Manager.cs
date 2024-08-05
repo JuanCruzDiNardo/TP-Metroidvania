@@ -20,11 +20,13 @@ public class Animation_Manager : MonoBehaviour
         currentAnimation = animations.Find(x => x.nombre == player.estado);
         currentAnimation.AnimationStart();
         direccionActual = player.lookingRight;
+
     }
 
     // Update is called once per frame
     void  Update()
     {
+
         if (!animationLock)
         {
             CheckEstado();
@@ -32,10 +34,23 @@ public class Animation_Manager : MonoBehaviour
         }else if(animations.Find(x => x.nombre == Estados.attack).loopended)
         {
             animationLock = false;
+            animations.Find(x => x.nombre == Estados.attack).loopended = false;
+            player.estado = Estados.idle;
+            CheckEstado();
+        }else if (animations.Find(x => x.nombre == Estados.damaged).loopended)
+        {
+            animationLock = false;
+            animations.Find(x => x.nombre == Estados.damaged).loopended = false;
             player.estado = Estados.idle;
             CheckEstado();
         }
-               
+
+        if(player.HP < 1)
+        {
+            player.estado = Estados.dead;
+            CheckEstado();
+        }
+
     }
 
     private void CheckDireccion()
@@ -54,7 +69,7 @@ public class Animation_Manager : MonoBehaviour
             currentAnimation.AnimationStop();
             currentAnimation = animations.Find(x => x.nombre == player.estado);
             currentAnimation.AnimationStart();
-            if(currentAnimation.nombre == Estados.attack)
+            if(currentAnimation.nombre == Estados.attack || currentAnimation.nombre == Estados.damaged)
             {                
                 animationLock = true;
             }
@@ -62,9 +77,4 @@ public class Animation_Manager : MonoBehaviour
     }
 }
 
-public enum Estados
-{
-    run,
-    idle,
-    attack
-}
+

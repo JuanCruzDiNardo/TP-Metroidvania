@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE38649D-C26F-50D7-C694-58B1409192E6}|Assembly-CSharp.csproj|c:\\users\\juan cruz di nardo\\documents\\github\\tp-metroidvania\\assets\\scripts\\animation_sheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE38649D-C26F-50D7-C694-58B1409192E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animation_sheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE38649D-C26F-50D7-C694-58B1409192E6}|Assembly-CSharp.csproj|C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE38649D-C26F-50D7-C694-58B1409192E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE38649D-C26F-50D7-C694-58B1409192E6}|Assembly-CSharp.csproj|C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\assets\\scripts\\enemyrange_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE38649D-C26F-50D7-C694-58B1409192E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyrange_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE38649D-C26F-50D7-C694-58B1409192E6}|Assembly-CSharp.csproj|c:\\users\\juan cruz di nardo\\documents\\github\\tp-metroidvania\\assets\\scripts\\animation_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE38649D-C26F-50D7-C694-58B1409192E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animation_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE38649D-C26F-50D7-C694-58B1409192E6}|Assembly-CSharp.csproj|C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\assets\\scripts\\enemy_animation_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE38649D-C26F-50D7-C694-58B1409192E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy_animation_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE38649D-C26F-50D7-C694-58B1409192E6}|Assembly-CSharp.csproj|C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\assets\\scripts\\player_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE38649D-C26F-50D7-C694-58B1409192E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE38649D-C26F-50D7-C694-58B1409192E6}|Assembly-CSharp.csproj|C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\assets\\scripts\\enemy_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE38649D-C26F-50D7-C694-58B1409192E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE38649D-C26F-50D7-C694-58B1409192E6}|Assembly-CSharp.csproj|C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\assets\\scripts\\playerlifebar_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE38649D-C26F-50D7-C694-58B1409192E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerlifebar_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +34,81 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Animation_Sheet.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\Assets\\Scripts\\Animation_Sheet.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Animation_Sheet.cs",
-              "ToolTip": "C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\Assets\\Scripts\\Animation_Sheet.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Animation_Sheet.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAYAAAA",
+              "DocumentIndex": 2,
+              "Title": "Enemy_Animation_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\Assets\\Scripts\\Enemy_Animation_Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy_Animation_Manager.cs",
+              "ToolTip": "C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\Assets\\Scripts\\Enemy_Animation_Manager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy_Animation_Manager.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwBoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T21:33:36.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T19:12:57.138Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EnemyRange_Controller.cs",
-              "DocumentMoniker": "C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\Assets\\Scripts\\EnemyRange_Controller.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyRange_Controller.cs",
-              "ToolTip": "C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\Assets\\Scripts\\EnemyRange_Controller.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyRange_Controller.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Animation_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\Assets\\Scripts\\Animation_Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Animation_Manager.cs",
+              "ToolTip": "C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\Assets\\Scripts\\Animation_Manager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Animation_Manager.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowEcAAABmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T19:58:26.275Z"
+              "WhenOpened": "2024-08-05T19:12:09.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA4wE8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T18:44:19.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerLifeBar_Controller.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\Assets\\Scripts\\PlayerLifeBar_Controller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerLifeBar_Controller.cs",
+              "ToolTip": "C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\Assets\\Scripts\\PlayerLifeBar_Controller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerLifeBar_Controller.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T16:41:38.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player_Controller.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\Assets\\Scripts\\Player_Controller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player_Controller.cs",
+              "ToolTip": "C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\Assets\\Scripts\\Player_Controller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player_Controller.cs",
+              "ViewState": "AQIAALUAAAAAAAAAAAAAwMsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T21:53:02.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Enemy_Controller.cs",
+              "DocumentMoniker": "C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\Assets\\Scripts\\Enemy_Controller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy_Controller.cs",
+              "ToolTip": "C:\\Users\\Juan Cruz Di Nardo\\Documents\\GitHub\\TP-Metroidvania\\Assets\\Scripts\\Enemy_Controller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy_Controller.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAA8wHgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T03:24:51.684Z"
             }
           ]
         }
